@@ -8,6 +8,7 @@ This Python script automates the generation of documents (in both .docx and .pdf
 - `pandas` library (`pip install pandas`)
 - `docxtpl` library (`pip install docxtpl`)
 - `docx2pdf` library (`pip install docx2pdf`)
+- Windows OS
 
 ## Usage
 

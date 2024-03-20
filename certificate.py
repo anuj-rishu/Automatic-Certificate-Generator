@@ -7,7 +7,7 @@ ans = pd.read_csv('data.csv')
 n = len(ans)
 
 def mkw(record, index):
-    tpl = DocxTemplate("temp.docx")
+    tpl = DocxTemplate("certificate.docx")
     context = {"name": record['name']}
     tpl.render(context)
     docx_filename = f"{index} - {record['name']}.docx"

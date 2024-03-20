@@ -17,9 +17,6 @@ This Python script automates the generation of documents (in both .docx and .pdf
 
 3. **Run the script**: Execute the Python script `generate_documents.py`. The script will read data from `data.csv`, fill in the template document `certificate.docx`, convert it into both `.docx` and `.pdf` formats, and save them in the current directory.
 
-```bash
-python generate_documents.py
-
 
 ## CSV File Format
 

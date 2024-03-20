@@ -19,3 +19,28 @@ This Python script automates the generation of documents (in both .docx and .pdf
 
 ```bash
 python generate_documents.py
+
+
+## CSV File Format
+
+1. The CSV file should contain the necessary fields required to populate the template document.
+2. Ensure that column names in the CSV file match the placeholders in the template document.
+3. Customize the CSV file according to your data needs.
+
+## Customization
+
+1. This script assumes that each row in the CSV file corresponds to a single document to be generated.
+2. The script will create a separate document for each row in the CSV file, numbered sequentially.
+
+## Authors
+
+- [@anuj-rishu](https://www.github.com/anuj-rishu)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
+
